@@ -61,4 +61,5 @@
 
 // console.log(str2.endsWith('question'));
 
-
+let name = "dineh"
+console.log(name)
