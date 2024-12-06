@@ -88,10 +88,49 @@
 // printcount(128);
 
 
-function printAvg(num1, num2 ){
-    let ans = (num1 +num2 )/2   
-    console.log("average : = ", ans);
-}
+// function printAvg(num1, num2 ){
+//     let ans = (num1 +num2 )/2   
+//     console.log("average : = ", ans);
+// }
 
-printAvg(45,78)
+// printAvg(45,78)
 
+// return function
+// function getsum (a,b,c) {
+//     let sum = a + b + c; 
+//     return sum;
+// }
+
+// let ans =  getsum(3,4,5);
+// console.log(ans);
+
+// function getmyname( firstname, lastname ) {
+//     let fullname = firstname + " " + lastname;
+//     return fullname;
+// }
+
+// let fullname = getmyname("dinesh" , "suthar");
+// console.log(fullname);
+
+// const getMultiplication = function (a,b) {
+//     return a*b;
+// }
+
+// let ans = getMultiplication(2,20);
+// console.log(ans);
+
+// let squareNumber = function(num) {
+//     let ans = num**2;
+//     return ans;
+// }
+
+
+// let ans = squareNumber(5);
+// console.log(ans);
+
+// let getExp = (x,y) => {
+//     let ans = x**y;
+//     return ans;
+// }
+
+// console.log(getExp(2,10));
