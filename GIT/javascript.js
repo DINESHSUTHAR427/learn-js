@@ -61,5 +61,37 @@
 
 // console.log(str2.endsWith('question'));
 
-let name = "dineh"
-console.log(name)
+// let name = "dineh"
+// console.log(name)
+
+// function 
+
+// non prameters
+
+// function printcount (){
+//     for(i=0; i <= 100; i++) {
+//         console.log(i);
+//     }
+
+// }
+// printcount();
+
+
+// parameters function
+
+// function printcount( num) {
+//     for (i =0 ; i <= num; i ++) {
+//         console.log(i);
+//     }
+
+// }
+// printcount(128);
+
+
+function printAvg(num1, num2 ){
+    let ans = (num1 +num2 )/2   
+    console.log("average : = ", ans);
+}
+
+printAvg(45,78)
+
