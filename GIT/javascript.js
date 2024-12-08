@@ -134,3 +134,88 @@
 // }
 
 // console.log(getExp(2,10));
+
+// learn array 
+let obj = {
+    name : "dinesh",
+    age : 19,
+    city : "ahmedabad",
+    greet : () => {
+        console.log("hello  sir my name is dinesh how are you`")
+
+    }
+};
+
+// for(let key in obj){
+//     console.log(key + " : " + obj[key]);
+// }
+
+
+// console.log(obj);
+// obj.greet();
+
+// creation of array
+// let arr = [1,2,3,4,5    ];
+// array consture
+// let din = new Array('welcome', 34,true);
+// din.push('dinesh');
+// din.pop();
+
+// din.shift();
+// din.unshift("helloWorld");
+
+// din.slice(2,5);
+// din.splice(2,2,"helloWorld");
+// first = postion
+// second = num of item to replace the new itme
+// third = name of new item
+
+// console.log(din);
+
+
+// let num = new Array (36,34689,348,489,33.44,484,15,48,5,5,48,45,48,4)
+
+// let arreven = num.filter((number) => {
+    // return number %2 === 0;
+//         if(number %2 === 0) {
+//             return true;
+//         }else{
+//             return false;
+//         }
+//     }
+// );
+// console.log(arreven);
+
+// map mathod one by one procrss of all elments of array
+
+// let arr = [ 1, 2, 3, 4 , 5, 6, 7, 8, 9];
+// console.log(arr.map((number ,index    ) => {
+//     return number * number;
+// }))
+
+
+// reduce mathodes
+//mane two thing 
+// 1 acccumalter jo apke array ke ki first value lega vana app value ste kar sakete ho;
+// 2 currunt acc ke bad vali value he 
+// let arr = [ 48,58,2,45,855,488,5,57,4,85]
+// console .log(arr.reduce((acc,curr) => {
+//     return acc + curr;
+// }))
+
+// let arr = [47,45,15,2,5,1,4];
+// console.log(arr.sort())
+
+// let arr = [47,45,15,2,5,1,4];
+// console.log(arr.reverse())
+
+// with heip forEach you are traves ever element of array
+// let arr = [47,45,15,2,5,1,4]
+
+// for(let index = 0; index < arr; index++){
+//     console.log(arr[i]);
+// }
+
+// arr.forEach((value,index) => {
+//     console.log("number :",value,"index :",index)
+// })
