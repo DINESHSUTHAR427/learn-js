@@ -400,8 +400,8 @@
 // function sayName(fName = "jay", lNmae = "hind"){
 //     console.log("hello",fName, lNmae);
 // }
-function sayName(fName = "jay", lNmae = fName.toUpperCase()){
-    console.log("hello",fName, lNmae);
-}
+// function sayName(fName = "jay", lNmae = fName.toUpperCase()){
+//     console.log("hello",fName, lNmae);
+// }
 
-sayName();
+// sayName();
