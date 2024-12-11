@@ -136,15 +136,15 @@
 // console.log(getExp(2,10));
 
 // learn array 
-let obj = {
-    name : "dinesh",
-    age : 19,
-    city : "ahmedabad",
-    greet : () => {
-        console.log("hello  sir my name is dinesh how are you`")
+// let obj = {
+//     name : "dinesh",
+//     age : 19,
+//     city : "ahmedabad",
+//     greet : () => {
+//         console.log("hello  sir my name is dinesh how are you`")
 
-    }
-};
+//     }
+// };
 
 // for(let key in obj){
 //     console.log(key + " : " + obj[key]);
@@ -219,3 +219,189 @@ let obj = {
 // arr.forEach((value,index) => {
 //     console.log("number :",value,"index :",index)
 // })
+
+// let arr = [10,20,30,40,50];
+
+// let getSum = (arr) => {
+//     let sum = 0;
+//     arr.forEach((value) => {
+//         sum = sum + value;
+//     })
+//     return sum;
+// }
+
+// let totalSum = getSum(arr);
+// console.log(totalSum);
+
+// call stack & hoisting
+
+// /* variable hosting */
+// {
+//     console.log(age);
+//     var age = 25;
+// }
+
+// let not hositing are not posible
+//     console.log(age);
+//     let age = 25;
+
+// funstion hositing are possible in function declaration me not in function experation
+// sayhello();
+
+// function sayhello() {
+//     console.log("hello world");
+// }
+
+// let sayhello = function () {
+//     console.log("hello world");
+// }
+// Uncaught ReferenceError ReferenceError
+
+// class hositing are not possible
+// const object1 = new human();
+// class human {
+
+// }
+
+// function stack
+// function greetme (greet , fullname) {
+//     console.log("hello",fullname);
+//     greet();
+// }
+// function greet() {
+//     console.log("greeting for the day");
+
+// }
+// greetme(greet,"dinesh");
+// greet();
+
+// const arr = [
+//     function(a,b){
+//         return a+b;
+//     },
+//     function(a,b){
+//         return a-b;
+//     },
+//     function(a,b){
+//         return a*b;
+//     }
+// ];
+// let first = arr[1];
+// let ans = first(5,10);
+// console.log(ans);
+
+
+// var greet;
+// console.log(greet)
+
+
+// var greet = function() {
+//     console.log("Namaste Dunia");
+// }
+
+
+
+// let obj = {
+//     age:25,
+//     wt: 36,
+//     ht:180,
+//     greet: ()=>{
+//         console.log("hello Dunia");
+//     }
+// }
+
+// console.log(obj.age);
+// obj.greet();
+
+// //global scope
+// const age = 15;
+
+// console.log(age);
+
+// {
+//     console.log(age)
+// }
+// if(true ){
+//     console.log(age)
+// }
+// for(let i=0; i<2; i++) {
+//     console.log(age);
+// }
+
+// function sayHello() {
+//     console.log("hi ", age);
+// }
+// sayHello();
+
+// function scope
+// function sayhello () {
+//     const fullname = "earth";
+//     console.log('hello world', name);
+// }
+
+// console.log(fullname);
+// sayhello();
+
+// block scope
+// {
+    //     const age = 100;
+    // }
+    
+    // console.log(age);
+    
+    
+    // console.log(height);
+    // {
+    //     var height = 180;
+    // }
+    
+    // console.log(height);
+
+// temporal dead zone
+    // console.log(marks);
+    // console.log("babbar");
+    // console.log("Love");
+    // const marks = 100;
+    // console.log(marks);
+
+// CLASS LEARN
+// class Human {
+//     age = 13;//publice
+//     #wt = 80; //private
+//     ht = 180;
+
+//     constructor ( newage,newhight,newweight){
+//         this.age = newage;
+//         this.ht = newhight;
+//         this.#wt = newweight;
+
+//     };
+
+//     walking(){
+//         console.log("i am walking",this.#wt);
+//     }
+
+//     ruunning(){
+//         console.log('i am running');
+//     }
+//     get fetchweight(){
+//         return this.#wt;
+//     }
+
+//     set modifyweight(val){
+//         this.#wt = val;
+//     }
+// }
+// let obj =  new Human( 19,5.8,56);
+// console.log(obj.fetchweight);
+// obj.walking();
+
+// defualt prameters
+// function sayName(fName = "jay", lNmae = "hind"){
+//     console.log("hello",fName, lNmae);
+// }
+function sayName(fName = "jay", lNmae = fName.toUpperCase()){
+    console.log("hello",fName, lNmae);
+}
+
+sayName();
